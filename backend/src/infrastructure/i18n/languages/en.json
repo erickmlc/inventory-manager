@@ -1,0 +1,73 @@
+{
+    "errors": {
+        "http": {
+            "bad_request": "Invalid request.",
+            "forbidden": "Access denied.",
+            "invalid_json": "Invalid JSON.",
+            "body_too_large": "The request body exceeds the allowed size.",
+            "method_not_allowed": "HTTP method not allowed for this resource.",
+            "invalid_method": "The HTTP method provided is invalid or malformed.",
+            "unauthorized": "The request is unauthorized.",
+            "not_found": "Resource not found.",
+            "too_many_requests": "Too many requests. Please try again later.",
+            "empty_body": "Request body is required."
+        },
+        "server": {
+            "internal_error": "Internal server error."
+        },
+        "database": {
+            "connection_error": "Failed to connect to the database.",
+            "unknown_error": "Unexpected error in the database.",
+            "foreign_key_violation": "Foreign key violation.",
+            "check_violation": "Check constraint violation.",
+            "unique_violation": "Unique constraint violation.",
+            "not_null_violation": "Not null constraint violation.",
+            "syntax_error": "Syntax error in SQL query.",
+            "invalid_text_representation": "Invalid text representation.",
+            "string_too_long": "String value is too long.",
+            "numeric_out_of_range": "Numeric value is out of range."
+        },
+        "validation": {
+            "required": "The field '{{field}}' is required.",
+            "invalid": "The field '{{field}}' is invalid.",
+            "field_not_found": "The field '{{field}}' was not found.",
+            "unknown_field": "The field '{{field}}' is unknown.",
+            "type_expected": "The field '{{field}}' must be a {{type}}.",
+            "number_expected": "The field '{{field}}' must be a number.",
+            "integer_expected": "The field '{{field}}' must be a integer",
+            "text_expected": "The field '{{field}}' must be a text string.",
+            "min_value": "The field '{{field}}' must be greater than or equal to '{{min}}'.",
+            "max_value": "The field '{{field}}' must be less than or equal to '{{max}}'.",
+            "exact_length": "The field '{{field}}' must contain exactly '{{length}}' characters.",
+            "string_too_long": "The field '{{field}}' must contain at most '{{max}}' characters.",
+            "invalid_format": "The field '{{field}}' has an invalid format.",
+            "numeric_out_of_range": "The field '{{field}}' must be between '{{min}}' and '{{max}}'."
+        },
+        "business": {
+            "invalid_id": "The ID '{{value}}' is invalid or exceeds the allowed limit.",
+            "required_id": "The ID is required.",
+            "duplicate_value": "The value is already in use."
+        }
+    },
+    "resources": {
+        "category": {
+            "one": "{{count}} category",
+            "other": "{{count}} categories"
+        },
+        "item": {
+            "one": "{{count}} item",
+            "other": "{{count}} items"
+        },
+        "location": {
+            "one": "{{count}} location",
+            "other": "{{count}} locations"
+        },
+        "manufacturer": {
+            "one": "{{count}} manufacturer",
+            "other": "{{count}} manufacturers"
+        },
+        "stock": {
+            "label": "Stock"
+        }
+    }
+}

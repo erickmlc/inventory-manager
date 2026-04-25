@@ -1,0 +1,13 @@
+:root {
+    --bg-page: #f2f2f2;
+    --bg-card: #ffffff;
+    --shadow-card: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+    --color-primary: #007bff;
+    --color-warning: #ffc107;
+    --color-danger: #dc3545;
+    --color-secondary: #6c757d;
+
+    --radius: 8px;
+    --font-main: Arial, sans-serif;
+}

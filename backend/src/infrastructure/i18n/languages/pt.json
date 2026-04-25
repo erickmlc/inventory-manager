@@ -1,0 +1,73 @@
+{
+    "errors": {
+        "http": {
+            "bad_request": "Requisição inválida.",
+            "forbidden": "Acesso negado.",
+            "invalid_json": "JSON inválido.",
+            "body_too_large": "O corpo da requisição excede o tamanho permitido.",
+            "method_not_allowed": "Método HTTP não permitido para este recurso.",
+            "invalid_method": "O método HTTP informado é inválido ou está malformado.",
+            "unauthorized": "A requisição não é autorizada.",
+            "not_found": "Recurso não encontrado.",
+            "too_many_requests": "Muitas solicitações. Por favor, tente novamente mais tarde.",
+            "empty_body": "O corpo da requisição é obrigatório."
+        },
+        "server": {
+            "internal_error": "Erro interno do servidor."
+        },
+        "database": {
+            "connection_error": "Falha ao conectar ao banco de dados.",
+            "unknown_error": "Erro inesperado no banco de dados.",
+            "foreign_key_violation": "Violação da chave estrangeira.",
+            "check_violation": "Violação da constraint de verificação.",
+            "unique_violation": "Violação da constraint única.",
+            "not_null_violation": "Violação da constraint not null.",
+            "syntax_error": "Erro de sintaxe na consulta SQL.",
+            "invalid_text_representation": "Representação de texto inválida.",
+            "string_too_long": "Valor de string é muito longo.",
+            "numeric_out_of_range": "Valor numérico está fora do intervalo."
+        },
+        "validation": {
+            "required": "O campo '{{field}}' é obrigatório.",
+            "invalid": "O campo '{{field}}' é inválido.",
+            "field_not_found": "O campo '{{field}}' não foi encontrado.",
+            "unknown_field": "o campo '{{field}}' é desconhecido.",
+            "type_expected": "O campo '{{field}}' deve ser '{{type}}'.",
+            "number_expected": "O campo '{{field}}' deve ser um número.",
+            "integer_expected": "O campo '{{field}}' deve ser um número inteiro",
+            "text_expected": "O campo '{{field}}' deve ser uma string de texto.",
+            "min_value": "O campo '{{field}}' deve ser maior ou igual a '{{min}}'.",
+            "max_value": "O campo '{{field}}' deve ser menor ou igual a '{{max}}'.",
+            "exact_length": "O campo '{{field}}' deve conter exatamente '{{length}}' caracteres.",
+            "string_too_long": "O campo '{{field}}' deve conter no máximo '{{max}}' caracteres.",
+            "invalid_format": "O campo '{{field}}' tem um formato inválido.",
+            "numeric_out_of_range": "O campo '{{field}}' deve estar entre '{{min}}' e '{{max}}'."
+        },
+        "business": {
+            "invalid_id": "O ID '{{value}}' é inválido ou excede o limite permitido.",
+            "required_id": "O ID é obrigatório.",
+            "duplicate_value": "O valor já está em uso."
+        }
+    },
+    "resources": {
+        "category": {
+            "one": "{{count}} categoria",
+            "other": "{{count}} categorias"
+        },
+        "item": {
+            "one": "{{count}} item",
+            "other": "{{count}} itens"
+        },
+        "location": {
+            "one": "{{count}} local",
+            "other": "{{count}} locais"
+        },
+        "manufacturer": {
+            "one": "{{count}} fabricante",
+            "other": "{{count}} fabricantes"
+        },
+        "stock": {
+            "label": "Estoque"
+        }
+    }
+}

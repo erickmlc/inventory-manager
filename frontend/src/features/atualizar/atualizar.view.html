@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Atualizar Item</title>
+	<link rel="stylesheet" href="../../shared/styles/buttons.css">
+	<link rel="stylesheet" href="../../shared/styles/components.css">
+	<link rel="stylesheet" href="../../shared/styles/global.css">
+	<link rel="stylesheet" href="../../shared/styles/variable.css">
+	<link rel="stylesheet" href="../../shared/components/dropdown/dropdown.css">
+</head>
+
+<body>
+	<button class="btn-voltar" onclick="location.href='../../index.html'">Voltar</button>
+
+	<div class="container">
+		<h2>Atualizar Item</h2>
+
+		<div class="dropdown-container">
+			<button class="dropdown-btn">Selecionar tipo</button>
+		</div>
+
+		<input type="number" id="updateId" placeholder="ID para atualizar" />
+
+		<hr></hr>
+
+		<div class="form-container"></div>
+
+		<button class="btn-warning" id="btnAtualizar">Atualizar</button>
+
+		<pre id="resultado">Aguardando ação...</pre>
+	</div>
+
+	<script type="module" src="./atualizar.js"></script>
+</body>
+
+</html>

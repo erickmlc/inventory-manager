@@ -1,0 +1,40 @@
+button {
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    color: white;
+}
+
+.btn-primary {
+    background-color: var(--color-primary);
+}
+
+.btn-warning {
+    background-color: var(--color-warning);
+}
+
+.btn-danger {
+    background-color: var(--color-danger);
+}
+
+.btn-voltar {
+    width: auto;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 8px 14px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--color-secondary);
+    color: white;
+    cursor: pointer;
+}
+
+.btn-voltar:hover {
+    background-color: var(--color-primary);
+}

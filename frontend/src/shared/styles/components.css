@@ -1,0 +1,29 @@
+.container {
+    background-color: var(--bg-card);
+    padding: 30px 40px;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-card);
+    text-align: center;
+    width: 420px;
+    max-width: 100%;
+}
+
+input {
+    width: 95%;
+    padding: 8px;
+    margin: 6px 0;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+pre {
+    background-color: #f7f7f7;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: left;
+    margin-top: 10px;
+    max-height: 300px;
+    max-width: 100%;
+    overflow: auto;
+}

@@ -1,0 +1,11 @@
+{
+    "type": "module",
+    "imports": {
+        "#application/*": "./src/application/*",
+        "#config/*": "./src/config/*",
+        "#domain/*": "./src/domain/*",
+        "#infrastructure/*": "./src/infrastructure/*",
+        "#main/*": "./src/main/*",
+        "#presentation/*": "./src/presentation/*"
+    }
+}
