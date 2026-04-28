@@ -1,6 +1,7 @@
 import { httpClient } from "../../core/api/http.client.js";
 
-const BASE_URL = "http://localhost:3000";
+const env = await fetch("/env").then(res => res.json());
+const BASE_URL = env.API_URL;
 
 export const apiService = {
 	get: (endpoint) =>
