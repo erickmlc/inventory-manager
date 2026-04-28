@@ -1,4 +1,7 @@
 {
+    "scripts": {
+        "dev": "node --env-file=.env src/main/server.js"
+    },
     "type": "module",
     "imports": {
         "#application/*": "./src/application/*",
